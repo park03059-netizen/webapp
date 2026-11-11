@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "status": "Concept 3 selected by the user and applied as the Android launcher icon.",
+  "concepts": [
+    {
+      "number": 1,
+      "prompt": "Use case: logo-brand. Asset type: Android launcher app icon concept 1, square full-bleed bitmap. A polished everyday photo converter and social feed image editor app. One bold white photo crop frame enclosing a minimal mountain and sun, with a tiny integrated transform sparkle in the upper right corner. Fresh cobalt blue to turquoise background. Friendly, clean, professional flat vector-like artwork rendered as a bitmap. Central symbol uses only the central 58 percent of the canvas for safe Android adaptive icon cropping, thick strokes and strong negative space, legible at 48 px. Full-bleed square background without rounded outer corners. One icon only, straight-on, no device mockup, no labels, no letters, no watermark, no tiny UI details."
+    },
+    {
+      "number": 2,
+      "prompt": "Use case: logo-brand. Asset type: Android launcher app icon concept 2, square full-bleed bitmap. A friendly everyday photo converter, social feed image editor and GIF maker. One charming softly rounded white camera silhouette with a simple warm amber circular lens and a small photo-card accent integrated behind its upper edge. Warm coral to peach-orange background. Minimal softly dimensional app artwork, approachable and elegant, subtle depth, no realistic camera detailing. Central symbol uses only the central 58 percent of the canvas for safe Android adaptive icon cropping, chunky silhouette, legible at 48 px. Full-bleed square background without rounded outer corners. One icon only, straight-on, no device mockup, no labels, no letters, no watermark, no tiny UI details."
+    },
+    {
+      "number": 3,
+      "prompt": "Use case: logo-brand. Asset type: Android launcher app icon concept 3, square full-bleed bitmap. An everyday photo converter and GIF creation app for social feeds. Three slightly offset photo frames forming a compact animation stack, front frame white with a minimal violet mountain and mint sun, one small mint circular motion-arrow accent integrated with the stack to suggest transformation and GIF looping. Rich violet to indigo background. Modern flat vector-like artwork rendered as a bitmap, energetic but minimal, bold simple shapes. Central symbol uses only the central 58 percent of the canvas for safe Android adaptive icon cropping, legible at 48 px. Full-bleed square background without rounded outer corners. One icon only, straight-on, no device mockup, no labels, no letters, no watermark, no tiny UI details."
+    }
+  ]
+}

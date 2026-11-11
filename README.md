@@ -77,6 +77,6 @@ Gradle 8.13 + Android Gradle Plugin 8.13.2 + JDK 17을 고정했습니다. Gradl
 
 2026-11-11에 Windows 명령줄에서 `lintDebug assembleDebug` 성공, APK 개발 서명 검증, 앱 이름·최소/대상 SDK 확인을 완료했습니다. JavaScript 사진 저장 연결도 파일명·데이터 전달, 클릭 처리, 용량 초과 및 구형 WebView 안내를 검사했습니다. Lint의 비차단 경고는 남아 있으며, 실기기 실행과 실제 GitHub Actions 실행은 아직 검증하지 않았습니다.
 
-아이콘은 내장 ImageGen 도구로 제작한 흰색 P 모노그램과 네이비·틸 배경입니다. Android adaptive icon으로 연결하여 기기의 원형·둥근 사각형 마스크를 따릅니다. 생성 프롬프트는 `assets/icon-prompt.txt`에 있습니다.
+아이콘은 내장 ImageGen 도구로 제작한 3번 모션 사진 시안입니다. 보라색 배경에 겹친 사진과 민트색 순환 화살표로 사진 변환·GIF 생성을 표현했습니다. Android adaptive icon으로 연결하여 기기의 원형·둥근 사각형 마스크를 따릅니다. 앱 버전은 1.0.1(versionCode 2)이며, 생성 프롬프트는 `assets/icon-prompt.txt`에 있습니다.
 
 공식 참고: [Android immersive mode](https://developer.android.com/develop/ui/views/layout/immersive), [AndroidX WebKit](https://developer.android.com/jetpack/androidx/releases/webkit), [AGP 호환성](https://developer.android.com/build/releases/gradle-plugin).
