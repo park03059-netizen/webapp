@@ -26,6 +26,10 @@ jobs:
           java-version: '17'
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          # v3 defaults to 'tools platform-tools'; the legacy 'tools' package is no longer available.
+          packages: 'platform-tools'
+          log-accepted-android-sdk-licenses: 'false'
       - name: Install SDK
         run: sdkmanager 'platforms;android-36' 'build-tools;35.0.0'
       - name: Set up Gradle and validate wrapper

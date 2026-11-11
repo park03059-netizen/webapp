@@ -12,6 +12,10 @@
 
 아티팩트는 30일 보관됩니다. 만료되면 Actions를 다시 실행하세요. SDK, Java, Gradle 설치는 Actions가 처리하며 GitHub Secrets 없이 빌드할 수 있습니다.
 
+### `Failed to find package 'tools'`로 실패한 경우
+
+`setup-android@v3`의 기본 패키지 목록에는 더 이상 제공되지 않는 `tools`가 포함되어 있습니다. 이 프로젝트는 `packages: 'platform-tools'`를 명시해 이를 제외하고, 다음 단계에서 Android 36과 Build Tools 35.0.0을 설치합니다. 수정된 `.github/workflows/android.yml`을 GitHub에 커밋한 뒤 **새 실행**을 사용하세요. 이전 실패 실행의 Re-run은 이전 workflow를 사용하므로 수정 사항이 반영되지 않습니다.
+
 Git을 사용한다면 아래 명령으로 업로드할 수 있습니다. GitHub에서 빈 저장소를 만든 후 `YOUR_REPOSITORY`를 실제 저장소 이름으로 바꾸세요. 최초 push에는 GitHub 로그인이 필요합니다.
 
 ```powershell
