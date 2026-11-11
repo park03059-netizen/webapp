@@ -1,0 +1,22 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'io.github.park03059.fitphoto'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'io.github.park03059.fitphoto'
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName '1.0.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+}
+
+dependencies { implementation 'androidx.webkit:webkit:1.14.0' }

@@ -1,0 +1,2 @@
+Tool: built-in image_gen.imagegen (not API/CLI fallback)
+Use case: logo-brand. Asset type: Android launcher app icon, square 1024x1024. Create a polished minimal personal website app icon for Park Minseok. A single bold geometric white P monogram with a subtle forward opening, centered on a deep navy to ocean teal background. Flat, crisp, highly legible at 48 pixels. Main symbol entirely within central 60 percent for Android adaptive icon cropping. Full bleed square background, no rounded outer corners, no mockup, no shadows outside icon, no additional text, no watermark.
